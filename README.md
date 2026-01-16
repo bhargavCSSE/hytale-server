@@ -1,4 +1,4 @@
-# hytale-server
+# Hytale Server
 Docker Based Hytale Server Setup
 
 ### Clone the Repo
@@ -16,3 +16,9 @@ Note: Currently Under Development. Once the image builds exit out of docker comp
 ```bash
 docker compose run -rm hytale-server
 ```
+
+## Dev Instructions
+Setup above will grant you access to server container terminal.
+1. Run ```./setup-hytale-downloader-cli.sh``` to setup hytale downloader client
+2. Run ```./setup-server.sh -download y``` to download hytale files
+3. Run ```./run-server.sh``` to run the test server 
