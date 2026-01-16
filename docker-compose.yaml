@@ -1,0 +1,11 @@
+name: hytale-docker-server
+
+services:
+  hytale-server:
+    build: .
+    working_dir: /app
+    volumes:
+    - ${PWD}/scripts:/app
+    stdin_open: true
+    tty: true
+    command: /bin/bash
