@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Download hytale downloader CLI
 curl -o hytale-cli.zip https://downloader.hytale.com/hytale-downloader.zip
 unzip hytale-cli.zip
